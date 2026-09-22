@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2958127670815366834}
   - component: {fileID: 6595300352416337242}
   - component: {fileID: 3502784697925126522}
+  - component: {fileID: 781615380434972731}
   m_Layer: 0
   m_Name: tyre
   m_TagString: Obstacle
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 6031014959586099280}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.1256, y: -0.4182, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.2336, y: 2.9517, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -106,3 +107,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.33333334, y: 0.114583336, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &781615380434972731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6031014959586099280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf35a80a64698a14da2aec9e0338f295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

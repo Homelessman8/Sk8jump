@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8478446759511321558}
   - component: {fileID: 898952221542912322}
   - component: {fileID: 1466775538292113636}
+  - component: {fileID: -1184057970179526715}
   m_Layer: 0
   m_Name: Trash
   m_TagString: Obstacle
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 7384532030197824398}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.2699, y: -0.1005, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.4023, y: 3.037, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -106,3 +107,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.27083334, y: 0.33333334, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-1184057970179526715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7384532030197824398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf35a80a64698a14da2aec9e0338f295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
